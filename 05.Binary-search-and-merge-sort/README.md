@@ -22,3 +22,22 @@ Merge Sort is a **stable sorting algorithm** that divides the input array into h
 - **Time Complexity**: O(n log n)
 - **Space Complexity**: O(n)
 - **Stable Sort**: ✅ Yes
+
+
+
+
+
+
+
+
+| Алгоритъм      | Най-добър случай | Среден случай | Най-лош случай | Пространствена сложност | Стабилен |
+| -------------- | ---------------- | ------------- | -------------- | ----------------------- | -------- |
+| Bubble Sort    | O(n)             | O(n²)         | O(n²)          | O(1)                    | ✅ Да     |
+| Insertion Sort | O(n)             | O(n²)         | O(n²)          | O(1)                    | ✅ Да     |
+| Selection Sort | O(n²)            | O(n²)         | O(n²)          | O(1)                    | ❌ Не     |
+| Merge Sort     | O(n log n)       | O(n log n)    | O(n log n)     | O(n)                    | ✅ Да     |
+| Quick Sort     | O(n log n)       | O(n log n)    | O(n²)          | O(log n) (рекурсивно)   | ❌ Не     |
+| Heap Sort      | O(n log n)       | O(n log n)    | O(n log n)     | O(1)                    | ❌ Не     |
+| Counting Sort  | O(n + k)         | O(n + k)      | O(n + k)       | O(k)                    | ✅ Да     |
+| Radix Sort     | O(nk)            | O(nk)         | O(nk)          | O(n + k)                | ✅ Да     |
+| Bucket Sort    | O(n + k)         | O(n + k)      | O(n²)          | O(n)                    | ✅ Да     |
