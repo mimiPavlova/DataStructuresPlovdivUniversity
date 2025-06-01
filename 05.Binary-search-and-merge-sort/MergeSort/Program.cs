@@ -26,7 +26,7 @@
             int i=0, j=0, k = 0;
 
             // Сливане на ляв и десен масив
-            while (i<left.Length&&j<right.Length)
+            while (i<left.Length||j<right.Length)
             {
                 if (left[i]<=right[j])
                 {
